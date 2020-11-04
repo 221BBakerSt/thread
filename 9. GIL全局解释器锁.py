@@ -1,0 +1,2 @@
+# global interpreter lock 保证了同一时刻多线程中只有一个线程会被调用，所以多核CPU不会被python多线程占满
+# 但是python的多进程可以把CPU占满，所以实际上多线程比多进程效率高
